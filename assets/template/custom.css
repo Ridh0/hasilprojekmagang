@@ -1,0 +1,169 @@
+#mainNav .navbar-nav li.nav-item a.nav-link {
+	color: #000000;
+}
+#mainNav {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 200;
+}
+  
+.btn-fitur {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 8.25rem;
+    height: 8.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+.bg-gambar {
+	max-width: 100%;
+	background: linear-gradient(
+			0deg,
+			rgba(214, 214, 214, 0.3),
+			rgb(255, 255, 255)
+		),
+		url(http://localhost/webprofilemagang/assets/bg-gambar.jpg);
+	background-position: center;
+	    height: 50.25rem;
+
+	background-size: cover;
+}
+.bg-about {
+	max-width: 100%;
+	background: linear-gradient(
+			0deg,
+			rgba(214, 214, 214, 0.3),
+			rgb(255, 255, 255)
+		),
+		url(http://localhost/webprofilemagang/assets/undraw_Team.png);
+	background-position: center;
+	    height: 50.25rem;
+
+	background-size: cover;
+}
+.bg-portofolio {
+	max-width: 100%;
+	background: 
+		url(http://localhost/webprofilemagang/assets/Team_collaboration.png);
+	background-position: center;
+	    height: 50.25rem;
+
+	background-size: cover;
+}
+.bg-layanan {
+	max-width: 100%;
+	background: linear-gradient(
+			0deg,
+			rgba(200, 252, 12, 0.3),
+			rgb(235, 250, 33)
+		),
+		url(http://localhost/webprofilemagang/assets/kontak1.png);
+	background-position: center;
+	    height: 50.25rem;
+
+	background-size: cover;
+}
+.bg-image {
+	max-width: 100%;
+	background: linear-gradient(
+			0deg,
+			rgba(200, 252, 12, 0.3),
+			rgb(74, 184, 74)
+		),
+		url(http://localhost/webprofilemagang/assets/image.png);
+	background-position: top;
+	    height: 50.25rem;
+
+	background-size: cover;
+}
+.bg-image2 {
+	max-width: 100%;
+	background: linear-gradient(
+			0deg,
+			rgba(200, 252, 12, 0.3),
+			rgba(184, 182, 74, 0.705)
+		),
+		url(http://localhost/webprofilemagang/assets/image2.png);
+	background-position:top;
+	height: 50.25rem;
+
+	background-size:cover;
+}
+.bg-image3 {
+	max-width: 100%;
+	background: linear-gradient(
+			0deg,
+			rgba(199, 252, 8, 0.3),
+			rgba(253, 249, 0, 0.705)
+		),
+		url(http://localhost/webprofilemagang/assets/consulting.png);
+	background-position:top;
+	height: 50.25rem;
+
+	background-size:cover;
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+@media (min-width: 360px) {
+	.bg-portofolio {
+		max-width: 100%;
+		background: 
+			url(http://localhost/webprofilemagang/assets/Team_collaboration.png);
+		background-position: center;
+			height: 20.25rem;
+	
+		background-size: cover;
+	}
+}
+@media (min-width: 768px) {
+	.bg-portofolio {
+		max-width: 100%;
+		background: 
+			url(http://localhost/webprofilemagang/assets/Team_collaboration.png);
+		background-position: center;
+			height: 30.25rem;
+	
+		background-size: cover;
+	}
+}
+@media (min-width: 992px) {
+	.masthead .masthead-heading {
+		font-size: 4rem;
+		line-height: 6.5rem;
+	}
+	.masthead {
+		padding-top: calc(0.5rem + 104px);
+		padding-bottom: 6rem;
+	}
+	.bg-portofolio {
+		max-width: 100%;
+		background: 
+			url(http://localhost/webprofilemagang/assets/Team_collaboration.png);
+		background-position: center;
+			height: 50.25rem;
+	
+		background-size: cover;
+	}
+}
+@media (min-width: 1200px) {
+	.bg-portofolio {
+		max-width: 100%;
+		background: 
+			url(http://localhost/webprofilemagang/assets/Team_collaboration.png);
+		background-position: center;
+			height: 50.25rem;
+	
+		background-size: cover;
+	}
+}
