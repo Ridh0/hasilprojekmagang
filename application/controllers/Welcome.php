@@ -20,29 +20,29 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		redirect('http://localhost/hasilprojekmagang/welcome/profil');
 	}
 	public function hal()
 	{
-$config['base_url'] =  'http://localhost/webprofilemagang/';
+$config['base_url'] =  'http://localhost/hasilprojekmagang/';
 
 		$this->load->view('tampilanawal');
 	}
 	public function profil()
 	{
-$config['base_url'] =  'http://localhost/webprofilemagang/';
+$config['base_url'] =  'http://localhost/hasilprojekmagang/';
 
 		$this->load->view('profile');
 	}
 	public function layanan()
 	{
-$config['base_url'] =  'http://localhost/webprofilemagang/';
+$config['base_url'] =  'http://localhost/hasilprojekmagang/';
 
 		$this->load->view('layanan');
 	}
 	public function portofolio()
 	{
-		$config['base_url'] =  'http://localhost/webprofilemagang/';
+		$config['base_url'] =  'http://localhost/hasilprojekmagang/';
 
 		$this->load->view('portofolio');
 	}
